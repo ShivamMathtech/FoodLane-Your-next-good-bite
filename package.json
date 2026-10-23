@@ -1,0 +1,26 @@
+{
+  "name": "foodlane-delivery",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "FoodLane food delivery application — React, Node.js and SQLite",
+  "engines": {
+    "node": ">=24 <25"
+  },
+  "scripts": {
+    "start": "node server/start.mjs",
+    "dev": "node server/start.mjs",
+    "dev:client": "vite --host 127.0.0.1 --port 5173",
+    "build": "vite build",
+    "test": "node --test tests/*.test.mjs",
+    "check": "node --check server/app.mjs && node --check server/db.mjs",
+    "backup": "node scripts/backup.mjs"
+  },
+  "dependencies": {
+    "react": "19.2.0",
+    "react-dom": "19.2.0"
+  },
+  "devDependencies": {
+    "vite": "7.3.7"
+  }
+}

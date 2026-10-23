@@ -1,0 +1,282 @@
+{
+  "project": "FoodLane",
+  "version": "1.0.0",
+  "node": "24.x",
+  "files": [
+    {
+      "path": ".dockerignore",
+      "sha256": "3c90a9d3c78e86815f7525d55a064f6f5859ed3235ac5287e10eded68b3c58d2",
+      "bytes": 42
+    },
+    {
+      "path": ".env.example",
+      "sha256": "2409f83a04c0883c7931dbe3b4f407905649df34add3dd695ff5ffb321f5c7e2",
+      "bytes": 222
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "735a0a17a45fd4d8657dfc3f3cc11f3b494cacd5f2b4b9f8d2ef7e5f3aae71d8",
+      "bytes": 40
+    },
+    {
+      "path": ".nvmrc",
+      "sha256": "68ca3fba3b7e864770cb61aeb306d4bd4354b68ab4dd38450860c5d823e42a53",
+      "bytes": 3
+    },
+    {
+      "path": "Dockerfile",
+      "sha256": "3bf2f48f24d93a9e86f09e929b74ff1e9f302ef3c0e3286ab38ed20c10636b40",
+      "bytes": 504
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "05e8576a0f6e822dd31705a27ee0f3dd8424d5e574e246ce8c9249393df9f65a",
+      "bytes": 1225
+    },
+    {
+      "path": "README.md",
+      "sha256": "1bbd6efdbf6a48bf9267c372ee6d3bf1c7540b33611639ad0d7e3c79619e19c1",
+      "bytes": 11167
+    },
+    {
+      "path": "REBUILD_WINDOWS.bat",
+      "sha256": "a6b9ff86be33028790f141ed9563c3b457f5a0620cf8f1ea34af6b04c93db0d3",
+      "bytes": 559
+    },
+    {
+      "path": "START_HERE.txt",
+      "sha256": "3b9d8ae7f699aa24c09abbfb1d42fcc9cf780ec2a618a626e3557cab2d31b718",
+      "bytes": 2027
+    },
+    {
+      "path": "START_WINDOWS.bat",
+      "sha256": "3aa5123c1b860f3c5c6792794c2d7bcaf0f590449a4fc405fc725866bfdf5eda",
+      "bytes": 546
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "sha256": "ed2414733a91b9082c2f392826f8ab8aa60c33c34f1761c86faebab357c06eea",
+      "bytes": 828
+    },
+    {
+      "path": "compose.yaml",
+      "sha256": "08c2119f31ca79874f5084e936726db959d0321162a3c28c06eb7f6bc77decce",
+      "bytes": 315
+    },
+    {
+      "path": "dist/assets/index-ChLTz6L9.css",
+      "sha256": "91fcc90822411dd9ee31fb89493321125fc8c161aeadd4c4fbc97d41ebba7ad7",
+      "bytes": 44384
+    },
+    {
+      "path": "dist/assets/index-hoMUwHVk.js",
+      "sha256": "42df7e81e488d5099627d3dd55ee34b0add7ac9a61715e2268dfcb5c10f4dac7",
+      "bytes": 257257
+    },
+    {
+      "path": "dist/favicon.svg",
+      "sha256": "5cb23830ffc81bbce8008630614c8864cdd172926d861a1ee1f1ed8bcf057974",
+      "bytes": 176
+    },
+    {
+      "path": "dist/images/SOURCES.txt",
+      "sha256": "a07132864a04f51e8eb24fad509d7251dfeaf32a6ffe5f74e894d568a2339d29",
+      "bytes": 648
+    },
+    {
+      "path": "dist/images/burger.jpg",
+      "sha256": "83da11dd886bd9a18554d481624a8c5e96accd6c5ffc8198f40ad1354f0e142e",
+      "bytes": 160635
+    },
+    {
+      "path": "dist/images/coffee.jpg",
+      "sha256": "d2c03ca3d0d7c224031baebd7f417e83e53059caa3a5f74189a1804c171ef063",
+      "bytes": 379116
+    },
+    {
+      "path": "dist/images/dessert.jpg",
+      "sha256": "018bb1ab59791d7cc12103a002e6503811bc1b239467fe633621755e3d564e51",
+      "bytes": 213393
+    },
+    {
+      "path": "dist/images/fries.jpg",
+      "sha256": "5cd6fc117e81ddbd877ff5d1212cc368c4f4e5f876708e644545e625faf5d044",
+      "bytes": 268044
+    },
+    {
+      "path": "dist/images/pasta.jpg",
+      "sha256": "9d3e6095723e4734bed60e0fe3a95ad6cd7b4f20c55b2dcc77a693a39d64d73e",
+      "bytes": 211454
+    },
+    {
+      "path": "dist/images/pizza.jpg",
+      "sha256": "2c6f9ba5c38613d143c0f6e73804d81dc0d9f7dfda04a0ac83b5e54d7d1cedb9",
+      "bytes": 279716
+    },
+    {
+      "path": "dist/images/salad.jpg",
+      "sha256": "84c3d0db69f1089a73f2a3677ad3da381042238a61295d6e6e949daca19601b4",
+      "bytes": 244367
+    },
+    {
+      "path": "dist/images/wings.jpg",
+      "sha256": "f5d64c4716973691a42fdda04978336496f392ad8262e536abd9d4127471daf6",
+      "bytes": 265327
+    },
+    {
+      "path": "dist/index.html",
+      "sha256": "616469b4c69d4f9a13421747916f3802d27a1237fca7da980f449527e189335e",
+      "bytes": 595
+    },
+    {
+      "path": "docs/API.md",
+      "sha256": "258119d1835628db27c6da14f4bce9920f04d7c4d9dddfb3c61242d0621f9cd5",
+      "bytes": 6215
+    },
+    {
+      "path": "docs/DEPLOYMENT.md",
+      "sha256": "ddf6e4c5df6e03f8cfa7bef70cf07f378644407a21ecfd50b8fc805a6cdc7a81",
+      "bytes": 3308
+    },
+    {
+      "path": "docs/VERIFICATION.md",
+      "sha256": "4de9d2cfb618359e8423956c7e3272b51c1dc4ebc7eab35fd539918788b4c945",
+      "bytes": 2942
+    },
+    {
+      "path": "index.html",
+      "sha256": "c36dc91dd4eb020d2cbcdc3f2034ed47b054020b9bc1dcac6491cac1339e3c8e",
+      "bytes": 496
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "a688cce8a082cb169572239ad44e8672471141c3fc5efe67197aad20943d16be",
+      "bytes": 36044
+    },
+    {
+      "path": "package.json",
+      "sha256": "e49ef69b3d7c71bd706c22790dd95a16c2c560cd2eabc74363223f99edc0ac40",
+      "bytes": 679
+    },
+    {
+      "path": "public/favicon.svg",
+      "sha256": "5cb23830ffc81bbce8008630614c8864cdd172926d861a1ee1f1ed8bcf057974",
+      "bytes": 176
+    },
+    {
+      "path": "public/images/SOURCES.txt",
+      "sha256": "a07132864a04f51e8eb24fad509d7251dfeaf32a6ffe5f74e894d568a2339d29",
+      "bytes": 648
+    },
+    {
+      "path": "public/images/burger.jpg",
+      "sha256": "83da11dd886bd9a18554d481624a8c5e96accd6c5ffc8198f40ad1354f0e142e",
+      "bytes": 160635
+    },
+    {
+      "path": "public/images/coffee.jpg",
+      "sha256": "d2c03ca3d0d7c224031baebd7f417e83e53059caa3a5f74189a1804c171ef063",
+      "bytes": 379116
+    },
+    {
+      "path": "public/images/dessert.jpg",
+      "sha256": "018bb1ab59791d7cc12103a002e6503811bc1b239467fe633621755e3d564e51",
+      "bytes": 213393
+    },
+    {
+      "path": "public/images/fries.jpg",
+      "sha256": "5cd6fc117e81ddbd877ff5d1212cc368c4f4e5f876708e644545e625faf5d044",
+      "bytes": 268044
+    },
+    {
+      "path": "public/images/pasta.jpg",
+      "sha256": "9d3e6095723e4734bed60e0fe3a95ad6cd7b4f20c55b2dcc77a693a39d64d73e",
+      "bytes": 211454
+    },
+    {
+      "path": "public/images/pizza.jpg",
+      "sha256": "2c6f9ba5c38613d143c0f6e73804d81dc0d9f7dfda04a0ac83b5e54d7d1cedb9",
+      "bytes": 279716
+    },
+    {
+      "path": "public/images/salad.jpg",
+      "sha256": "84c3d0db69f1089a73f2a3677ad3da381042238a61295d6e6e949daca19601b4",
+      "bytes": 244367
+    },
+    {
+      "path": "public/images/wings.jpg",
+      "sha256": "f5d64c4716973691a42fdda04978336496f392ad8262e536abd9d4127471daf6",
+      "bytes": 265327
+    },
+    {
+      "path": "scripts/backup.mjs",
+      "sha256": "46f45a335b4d69444f80efcff00466439e2e7ecd182aed91adf443fbdbf91b3e",
+      "bytes": 873
+    },
+    {
+      "path": "scripts/check-node.mjs",
+      "sha256": "97aaf83ba17875ae9bbff9946b1df2297bd4cfaeb5d90211a8104c9be3c16475",
+      "bytes": 435
+    },
+    {
+      "path": "scripts/create-user.mjs",
+      "sha256": "1969be9d2ced046dbdc6e7815fd9883651a7244f852f596cf25669ace8e24c53",
+      "bytes": 1912
+    },
+    {
+      "path": "server/app.mjs",
+      "sha256": "97f5ff240674894aa66bc40fa08a2d07f06d31ec4e0f37c03761647b406d5502",
+      "bytes": 36552
+    },
+    {
+      "path": "server/db.mjs",
+      "sha256": "c28c736234b8e667649a1b210223d3afbb7d33dcc07c17615fa3d3678fc4acda",
+      "bytes": 13247
+    },
+    {
+      "path": "server/start.mjs",
+      "sha256": "a9102164b64e0f154b289e0177df25cbc0f19ce628ea20912647e09a337014c6",
+      "bytes": 2101
+    },
+    {
+      "path": "src/App.jsx",
+      "sha256": "484cbdf0f18dbb91d6b6a709a175d59658f6eb6cd2a72f681dcc6a52aa1ac6f0",
+      "bytes": 94418
+    },
+    {
+      "path": "src/api.js",
+      "sha256": "66b3c2c7bc992c55bd3275e516c101cf6b03c2a9ddc74f01ada1b233e968abbb",
+      "bytes": 1429
+    },
+    {
+      "path": "src/icons.jsx",
+      "sha256": "e57e8454254c1ab468c7cd83141502a6fff54957b522b620b4a4ce511ac323e7",
+      "bytes": 3519
+    },
+    {
+      "path": "src/main.jsx",
+      "sha256": "5efce433b9c29f906dd7f4450371c51b516d9855f3caa6068b4b408cd6eca593",
+      "bytes": 237
+    },
+    {
+      "path": "src/styles.css",
+      "sha256": "4b12c4bfe300b70c3006f31f57ffbc23d14ab01f4956d73059d48d83f5712035",
+      "bytes": 57609
+    },
+    {
+      "path": "start.sh",
+      "sha256": "dddf36ac8e49a58d4d7bd240fbed9be4d7b053269f014145c41c29168320dc49",
+      "bytes": 114
+    },
+    {
+      "path": "tests/application.test.mjs",
+      "sha256": "bfedad8ac9b9e3f9ffc5f4aa070b1a01cb19a80d8f923384883ff2ba878cf2b0",
+      "bytes": 16309
+    },
+    {
+      "path": "vite.config.js",
+      "sha256": "0f599dc58eca8ae5bc74cc6feebc450d3a898dd2dedd44aef66405f27cdcc0ab",
+      "bytes": 193
+    }
+  ]
+}

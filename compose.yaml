@@ -1,0 +1,16 @@
+services:
+  foodlane:
+    build: .
+    ports:
+      - "127.0.0.1:3000:3000"
+    environment:
+      DEMO_MODE: "true"
+      HOST: "0.0.0.0"
+      PORT: "3000"
+    volumes:
+      - foodlane_data:/app/data
+      - foodlane_backups:/app/backups
+    restart: unless-stopped
+volumes:
+  foodlane_data:
+  foodlane_backups:

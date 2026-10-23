@@ -1,0 +1,41 @@
+FOODLANE - FULL STACK FOOD DELIVERY APPLICATION
+=============================================
+
+QUICKEST WAY TO RUN ON WINDOWS
+1. Install Node.js 24.x from https://nodejs.org/ (once).
+2. Extract the ENTIRE ZIP. Do not launch files from inside the ZIP viewer.
+3. Open the foodlane folder and double-click START_WINDOWS.bat.
+4. Keep the command window open.
+5. Visit http://localhost:3000 in Chrome or Edge.
+
+The ready-built frontend is included. No npm install, Python, database server,
+API key, payment account, or internet connection is needed to run it after
+Node.js is installed. SQLite creates the database on the first launch.
+
+DEMO ACCOUNTS
+Customer: customer@foodlane.local   Password: Customer123!
+Admin:    admin@foodlane.local      Password: Admin123!
+Driver:   driver@foodlane.local     Password: Driver123!
+
+Click a demo account on the sign-in screen to fill its credentials, then sign in.
+Use separate browser profiles (or a normal + private window) for different roles.
+Tabs in one browser profile share the same signed-in account.
+
+DEMO TOUR
+Customer: add food, customize size/sauce, apply an offer, checkout.
+Admin: open the order, confirm it, mark preparation/ready, assign the driver.
+Driver: open assigned delivery, confirm pickup, then mark delivered.
+Customer: read status updates, chat with staff, review, and reorder.
+For a solo walkthrough, the customer order page has explicit Demo controls.
+
+PAYMENT AND TRACKING
+Cash on delivery is supported. "Demo payment" is simulated and charges nothing.
+Order status is real database state; the route map is illustrative, not live GPS.
+No real restaurant, driver, payment provider or telephone call is contacted.
+
+EDIT SOURCE CODE
+Frontend: src/       Backend: server/       Images: public/images/
+After editing frontend code, double-click REBUILD_WINDOWS.bat.
+Restart the server after backend changes. See README.md for development mode.
+
+Read README.md and docs/ for setup, architecture, API, deployment and test notes.
